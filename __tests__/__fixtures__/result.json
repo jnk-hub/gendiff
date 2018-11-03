@@ -1,0 +1,53 @@
+{
+  "nested": {
+    "common": {
+      "equal": {
+        "setting1": "Value 1"
+      },
+      "removed": {
+        "setting2": "200"
+      },
+      "updated": {
+        "setting3": {
+          "key": "value"
+        }
+      },
+      "nested": {
+        "setting6": {
+          "equal": {
+            "key": "value"
+          },
+          "added": {
+            "ops": "vops"
+          }
+        }
+      },
+      "added": {
+        "follow": false,
+        "setting4": "blah blah",
+        "setting5": {
+          "key5": "value5"
+        }
+      }
+    },
+    "group1": {
+      "updated": {
+        "baz": "bars",
+        "nest": "str"
+      },
+      "equal": {
+        "foo": "bar"
+      }
+    }
+  },
+  "removed": {
+    "group2": {
+      "abc": "12345"
+    }
+  },
+  "added": {
+    "group3": {
+      "fee": "100500"
+    }
+  }
+}
